@@ -1,0 +1,5 @@
+# Generated outputs — regenerate by running the notebooks / scripts
+figures/*
+!figures/.gitkeep
+# Regenerable BLAST databases
+*_db.n??

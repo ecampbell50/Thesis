@@ -1,0 +1,21 @@
+Description,Count,GeneRatio,p.adjust
+DNA helicase activity,29,0.14215686274509803,1
+formate-tetrahydrofolate ligase activity,22,0.10784313725490197,1
+rRNA modification,22,0.10784313725490197,1
+cytosol,21,0.10294117647058823,1
+cellular_component,19,0.09313725490196079,1
+carbohydrate metabolic process,10,0.049019607843137254,1
+DNA binding,9,0.04411764705882353,1
+RNA binding,9,0.04411764705882353,1
+magnesium ion binding,9,0.04411764705882353,1
+double-strand break repair via homologous recombination,8,0.0392156862745098,1
+molecular_function,8,0.0392156862745098,1
+DNA-binding transcription factor activity,6,0.029411764705882353,1
+ATP binding,5,0.024509803921568627,1
+metalloendopeptidase activity,5,0.024509803921568627,1
+transposase activity,5,0.024509803921568627,1
+aspartate-semialdehyde dehydrogenase activity,4,0.0196078431372549,1
+nucleic acid binding,3,0.014705882352941176,1
+tRNA binding,3,0.014705882352941176,1
+organellar large ribosomal subunit,2,0.00980392156862745,1
+nucleotide binding,1,0.004901960784313725,1

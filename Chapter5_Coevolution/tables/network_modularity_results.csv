@@ -1,0 +1,3 @@
+network,min_hosts,n_row,n_col,metric,observed,null_mean,null_sd,z,p,n_modules,n_null,n_restart
+BACcomm_x_prophageComm,10,61,42,modularity_Q,0.672430555555556,0.630388608305276,0.0159302814945524,2.63912142824707,0.01,11,99,10
+BACcomm_x_prophageComm,5,79,85,modularity_Q,0.725070529513888,0.636562017746914,0.013860737538962,6.385555712182,0.01,12,99,10

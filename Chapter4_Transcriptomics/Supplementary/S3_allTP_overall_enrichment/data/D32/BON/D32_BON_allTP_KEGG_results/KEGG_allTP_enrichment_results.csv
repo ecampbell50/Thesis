@@ -1,0 +1,53 @@
+ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count
+Glyoxylate and dicarboxylate metabolism,Glyoxylate and dicarboxylate metabolism,4/24,12/729,0.3333333333333333,10.124999999999998,5.876796743346683,3.769382825774932e-4,0.019600790694029646,0.019600790694029646,D32_prot_00690/D32_prot_01235/D32_prot_01404/D32_prot_01236,4
+Glycerolipid metabolism,Glycerolipid metabolism,4/24,17/729,0.23529411764705882,7.147058823529411,4.728556525127213,0.001620691702474612,0.03995506995432671,0.03995506995432672,D32_prot_00591/D32_prot_01404/D32_prot_00592/D32_prot_00590,4
+Microbial metabolism in diverse environments,Microbial metabolism in diverse environments,9/24,98/729,0.09183673469387756,2.7895408163265305,3.5108859241848864,0.002305100189672695,0.03995506995432671,0.03995506995432672,D32_prot_00690/D32_prot_01235/D32_prot_01404/D32_prot_00788/D32_prot_01234/D32_prot_00724/D32_prot_00889/D32_prot_01236/D32_prot_00789,9
+2-Oxocarboxylic acid metabolism,2-Oxocarboxylic acid metabolism,3/24,16/729,0.1875,5.6953125,3.5015189476519635,0.013263271225670158,0.17242252593371205,0.17242252593371205,D32_prot_01235/D32_prot_01234/D32_prot_01236,3
+ABC transporters,ABC transporters,7/24,95/729,0.07368421052631578,2.238157894736842,2.3859973493394744,0.027072869617987265,0.28155784402706757,0.2815578440270675,D32_prot_01821/D32_prot_01082/D32_prot_01081/D32_prot_00689/D32_prot_01080/D32_prot_01079/D32_prot_00297,7
+Butanoate metabolism,Butanoate metabolism,2/24,10/729,0.2,6.075,2.9795340535723835,0.039799940608089,0.344932818603438,0.344932818603438,D32_prot_00724/D32_prot_00789,2
+"Alanine, aspartate and glutamate metabolism","Alanine, aspartate and glutamate metabolism",2/24,15/729,0.13333333333333333,4.05,2.2007621845035703,0.08401178713508851,0.6117716668653927,0.6117716668653927,D32_prot_00690/D32_prot_01805,2
+Other carbon fixation pathways,Other carbon fixation pathways,2/24,16/729,0.125,3.796875,2.0857633664881914,0.0941187179792912,0.6117716668653927,0.6117716668653927,D32_prot_01234/D32_prot_01236,2
+Pyruvate metabolism,Pyruvate metabolism,2/24,25/729,0.08,2.4299999999999997,1.3415178764242977,0.19700046836262067,1,1,D32_prot_00724/D32_prot_00789,2
+Glycolysis / Gluconeogenesis,Glycolysis / Gluconeogenesis,2/24,29/729,0.06896551724137931,2.0948275862068964,1.1093598981901225,0.2466286888628473,1,1,D32_prot_00788/D32_prot_00789,2
+Metabolic pathways,Metabolic pathways,14/24,364/729,0.038461538461538464,1.1682692307692308,0.8365380910927028,0.26492528673007865,1,1,D32_prot_00690/D32_prot_00591/D32_prot_01235/D32_prot_01404/D32_prot_00282/D32_prot_00788/D32_prot_01234/D32_prot_00724/D32_prot_00592/D32_prot_00889/D32_prot_01236/D32_prot_01805/D32_prot_00789/D32_prot_00280,14
+Biosynthesis of amino acids,Biosynthesis of amino acids,4/24,82/729,0.04878048780487805,1.4817073170731705,0.8537186739155772,0.27982012021140334,1,1,D32_prot_00690/D32_prot_01235/D32_prot_01234/D32_prot_01236,4
+Carbon metabolism,Carbon metabolism,3/24,59/729,0.05084745762711865,1.5444915254237288,0.804371141879219,0.3062156608784041,1,1,D32_prot_01235/D32_prot_01234/D32_prot_01236,3
+beta-Lactam resistance,beta-Lactam resistance,1/24,11/729,0.09090909090909091,2.7613636363636362,1.085325228864966,0.3098380158680514,1,1,D32_prot_00689,1
+Oxidative phosphorylation,Oxidative phosphorylation,1/24,12/729,0.08333333333333333,2.5312499999999996,0.9861747959725597,0.33290749723179325,1,1,D32_prot_00281,1
+Propanoate metabolism,Propanoate metabolism,1/24,14/729,0.07142857142857142,2.1696428571428568,0.8147812417781709,0.37684912255146363,1,1,D32_prot_00724,1
+Amino sugar and nucleotide sugar metabolism,Amino sugar and nucleotide sugar metabolism,2/24,42/729,0.047619047619047616,1.4464285714285714,0.549509253750345,0.4080449387572107,1,1,D32_prot_00889/D32_prot_01805,2
+Fructose and mannose metabolism,Fructose and mannose metabolism,1/24,16/729,0.0625,1.8984375,0.670007785324419,0.41800923222133213,1,1,D32_prot_00889,1
+"Glycine, serine and threonine metabolism","Glycine, serine and threonine metabolism",1/24,16/729,0.0625,1.8984375,0.670007785324419,0.41800923222133213,1,1,D32_prot_01404,1
+Pyrimidine metabolism,Pyrimidine metabolism,2/24,50/729,0.04,1.2149999999999999,0.290445951297547,0.5003067556444137,1,1,D32_prot_00282/D32_prot_00280,2
+Biosynthesis of secondary metabolites,Biosynthesis of secondary metabolites,5/24,159/729,0.031446540880503145,0.9551886792452831,-0.11782179386852608,0.6285221644825539,1,1,D32_prot_01235/D32_prot_00788/D32_prot_01234/D32_prot_01236/D32_prot_00789,5
+Phosphotransferase system (PTS),Phosphotransferase system (PTS),1/24,33/729,0.030303030303030304,0.9204545454545454,-0.0862272369787253,0.6770098914213707,1,1,D32_prot_00889,1
+Two-component system,Two-component system,1/24,35/729,0.02857142857142857,0.8678571428571429,-0.14773205249821833,0.6989164892098592,1,1,D32_prot_00690,1
+Quorum sensing,Quorum sensing,1/24,42/729,0.023809523809523808,0.7232142857142857,-0.3406957373252138,0.7649173680231987,1,1,D32_prot_00689,1
+Aminoacyl-tRNA biosynthesis,Aminoacyl-tRNA biosynthesis,0/24,25/729,0,0,-0.9381243891079005,1,1,1,,0
+Bacterial secretion system,Bacterial secretion system,0/24,11/729,0,0,-0.616184646065271,1,1,1,,0
+Carbon fixation by Calvin cycle,Carbon fixation by Calvin cycle,0/24,10/729,0,0,-0.5871003061226371,1,1,1,,0
+Cell cycle - Caulobacter,Cell cycle - Caulobacter,0/24,10/729,0,0,-0.5871003061226371,1,1,1,,0
+Cysteine and methionine metabolism,Cysteine and methionine metabolism,0/24,24/729,0,0,-0.9185183021775007,1,1,1,,0
+DNA replication,DNA replication,0/24,16/729,0,0,-0.7457477958393535,1,1,1,,0
+Drug metabolism - other enzymes,Drug metabolism - other enzymes,0/24,10/729,0,0,-0.5871003061226371,1,1,1,,0
+Fatty acid biosynthesis,Fatty acid biosynthesis,0/24,13/729,0,0,-0.6707982439483243,1,1,1,,0
+Fatty acid metabolism,Fatty acid metabolism,0/24,13/729,0,0,-0.6707982439483243,1,1,1,,0
+Galactose metabolism,Galactose metabolism,0/24,31/729,0,0,-1.0491314052494591,1,1,1,,0
+Glycerophospholipid metabolism,Glycerophospholipid metabolism,0/24,11/729,0,0,-0.616184646065271,1,1,1,,0
+Homologous recombination,Homologous recombination,0/24,21/729,0,0,-0.8573729363383127,1,1,1,,0
+Lysine biosynthesis,Lysine biosynthesis,0/24,14/729,0,0,-0.6966068631996576,1,1,1,,0
+Methane metabolism,Methane metabolism,0/24,14/729,0,0,-0.6966068631996576,1,1,1,,0
+Mismatch repair,Mismatch repair,0/24,18/729,0,0,-0.7920967004545554,1,1,1,,0
+Nicotinate and nicotinamide metabolism,Nicotinate and nicotinamide metabolism,0/24,10/729,0,0,-0.5871003061226371,1,1,1,,0
+One carbon pool by folate,One carbon pool by folate,0/24,10/729,0,0,-0.5871003061226371,1,1,1,,0
+Pantothenate and CoA biosynthesis,Pantothenate and CoA biosynthesis,0/24,12/729,0,0,-0.6440325198188145,1,1,1,,0
+Pentose phosphate pathway,Pentose phosphate pathway,0/24,23/729,0,0,-0.8985418709342107,1,1,1,,0
+Peptidoglycan biosynthesis,Peptidoglycan biosynthesis,0/24,22/729,0,0,-0.8781695730500841,1,1,1,,0
+"Phenylalanine, tyrosine and tryptophan biosynthesis","Phenylalanine, tyrosine and tryptophan biosynthesis",0/24,13/729,0,0,-0.6707982439483243,1,1,1,,0
+Protein export,Protein export,0/24,15/729,0,0,-0.7215613719683837,1,1,1,,0
+Purine metabolism,Purine metabolism,0/24,62/729,0,0,-1.5177829847123252,1,1,1,,0
+Ribosome,Ribosome,0/24,53/729,0,0,-1.3939311998275599,1,1,1,,0
+RNA degradation,RNA degradation,0/24,11/729,0,0,-0.616184646065271,1,1,1,,0
+Starch and sucrose metabolism,Starch and sucrose metabolism,0/24,40/729,0,0,-1.1994913949602564,1,1,1,,0
+Terpenoid backbone biosynthesis,Terpenoid backbone biosynthesis,0/24,11/729,0,0,-0.616184646065271,1,1,1,,0
+"Valine, leucine and isoleucine biosynthesis","Valine, leucine and isoleucine biosynthesis",0/24,11/729,0,0,-0.616184646065271,1,1,1,,0

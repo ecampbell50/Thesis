@@ -1,0 +1,21 @@
+Description,Count,GeneRatio,p.adjust
+Glyoxylate and dicarboxylate metabolism,4,0.16666666666666666,0.019600790694029646
+Microbial metabolism in diverse environments,9,0.375,0.03995506995432671
+Glycerolipid metabolism,4,0.16666666666666666,0.03995506995432671
+2-Oxocarboxylic acid metabolism,3,0.125,0.17242252593371205
+ABC transporters,7,0.2916666666666667,0.28155784402706757
+Butanoate metabolism,2,0.08333333333333333,0.344932818603438
+"Alanine, aspartate and glutamate metabolism",2,0.08333333333333333,0.6117716668653927
+Other carbon fixation pathways,2,0.08333333333333333,0.6117716668653927
+Metabolic pathways,14,0.5833333333333334,1
+Biosynthesis of secondary metabolites,5,0.20833333333333334,1
+Biosynthesis of amino acids,4,0.16666666666666666,1
+Carbon metabolism,3,0.125,1
+Amino sugar and nucleotide sugar metabolism,2,0.08333333333333333,1
+Glycolysis / Gluconeogenesis,2,0.08333333333333333,1
+Pyrimidine metabolism,2,0.08333333333333333,1
+Pyruvate metabolism,2,0.08333333333333333,1
+Fructose and mannose metabolism,1,0.041666666666666664,1
+"Glycine, serine and threonine metabolism",1,0.041666666666666664,1
+Oxidative phosphorylation,1,0.041666666666666664,1
+Phosphotransferase system (PTS),1,0.041666666666666664,1

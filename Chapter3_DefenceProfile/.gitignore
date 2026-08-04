@@ -1,0 +1,8 @@
+# Generated outputs — regenerate with:
+#   jupyter nbconvert --to notebook --execute --inplace Ssuis_DefenceAnalysis.ipynb
+#   Rscript defence_network.R
+figures/*
+tables/*
+!figures/.gitkeep
+!tables/.gitkeep
+network_run.log

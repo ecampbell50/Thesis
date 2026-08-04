@@ -1,0 +1,14 @@
+Description,Count,GeneRatio,p.adjust
+RNA binding,8,0.13559322033898305,1
+molecular_function,7,0.11864406779661017,1
+pantothenate kinase activity,6,0.1016949152542373,1
+regulation of DNA-templated transcription,3,0.05084745762711865,1
+DNA binding,2,0.03389830508474576,1
+aspartate-semialdehyde dehydrogenase activity,2,0.03389830508474576,1
+rRNA modification,2,0.03389830508474576,1
+cytidine deaminase activity,1,0.01694915254237288,1
+mRNA binding,1,0.01694915254237288,1
+mitotic cell cycle,1,0.01694915254237288,1
+nucleotide binding,1,0.01694915254237288,1
+tRNA binding,1,0.01694915254237288,1
+transposase activity,1,0.01694915254237288,1

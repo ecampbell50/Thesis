@@ -1,0 +1,21 @@
+Description,Count,GeneRatio,p.adjust
+Phosphotransferase system (PTS),23,0.09274193548387097,5.239729093150684e-4
+Galactose metabolism,22,0.08870967741935484,5.239729093150684e-4
+Starch and sucrose metabolism,21,0.0846774193548387,0.17855516639477134
+Metabolic pathways,137,0.5524193548387096,0.30869506542035763
+ABC transporters,40,0.16129032258064516,0.5101507377792822
+Biosynthesis of secondary metabolites,51,0.2056451612903226,1
+Microbial metabolism in diverse environments,36,0.14516129032258066,1
+Biosynthesis of amino acids,31,0.125,1
+Carbon metabolism,21,0.0846774193548387,1
+Pyrimidine metabolism,17,0.06854838709677419,1
+Quorum sensing,17,0.06854838709677419,1
+Purine metabolism,16,0.06451612903225806,1
+Amino sugar and nucleotide sugar metabolism,15,0.06048387096774194,1
+Glycolysis / Gluconeogenesis,12,0.04838709677419355,1
+Two-component system,11,0.04435483870967742,1
+Glycerolipid metabolism,8,0.03225806451612903,1
+Pentose phosphate pathway,8,0.03225806451612903,1
+2-Oxocarboxylic acid metabolism,7,0.028225806451612902,1
+"Alanine, aspartate and glutamate metabolism",7,0.028225806451612902,1
+Cysteine and methionine metabolism,7,0.028225806451612902,1

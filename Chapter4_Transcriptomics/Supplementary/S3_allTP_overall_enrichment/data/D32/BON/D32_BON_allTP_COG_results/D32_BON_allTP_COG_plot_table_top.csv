@@ -1,0 +1,12 @@
+Description,Count,GeneRatio,p.adjust
+Energy production and conversion,8,0.25,4.3065686366423375e-5
+Inorganic ion transport and metabolism,6,0.1875,0.058820529154616705
+Amino acid transport and metabolism,4,0.125,1
+Carbohydrate transport and metabolism,4,0.125,1
+Function unknown,3,0.09375,1
+Transcription,3,0.09375,1
+Nucleotide transport and metabolism,2,0.0625,1
+Cell wall/membrane/envelope biogenesis,1,0.03125,1
+"Post-translational modification, protein turnover, chaperones",1,0.03125,1
+"Replication, recombination and repair",1,0.03125,1
+Signal transduction mechanisms,1,0.03125,1

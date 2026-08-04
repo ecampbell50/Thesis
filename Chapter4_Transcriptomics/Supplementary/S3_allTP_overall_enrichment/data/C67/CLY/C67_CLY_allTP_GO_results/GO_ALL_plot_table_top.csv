@@ -1,0 +1,16 @@
+Description,Count,GeneRatio,p.adjust
+molecular_function,16,0.11347517730496454,0.4831902766699067
+pantothenate kinase activity,22,0.15602836879432624,1
+RNA binding,17,0.12056737588652482,1
+DNA binding,7,0.04964539007092199,1
+rRNA modification,6,0.0425531914893617,1
+regulation of DNA-templated transcription,6,0.0425531914893617,1
+mitotic cell cycle,4,0.028368794326241134,1
+tRNA binding,4,0.028368794326241134,1
+transposase activity,4,0.028368794326241134,1
+ABC-type heme transporter activity,3,0.02127659574468085,1
+aspartate-semialdehyde dehydrogenase activity,3,0.02127659574468085,1
+cytidine deaminase activity,3,0.02127659574468085,1
+nucleotide binding,2,0.014184397163120567,1
+cytosol,1,0.0070921985815602835,1
+nucleic acid binding,1,0.0070921985815602835,1

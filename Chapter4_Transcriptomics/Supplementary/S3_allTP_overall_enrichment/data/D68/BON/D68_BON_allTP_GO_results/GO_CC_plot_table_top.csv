@@ -1,0 +1,7 @@
+Description,Count,GeneRatio,p.adjust
+structural constituent of ribosome,24,0.24,8.870054389201298e-6
+organellar large ribosomal subunit,14,0.14,1.532814832423624e-5
+molecular_function,15,0.15,0.8705682376940191
+rRNA modification,7,0.07,0.8705682376940191
+cysteine-tRNA ligase activity,30,0.3,0.9820954495011806
+3'-5'-RNA exonuclease activity,19,0.19,0.9820954495011806

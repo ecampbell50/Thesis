@@ -1,0 +1,20 @@
+Description,Count,GeneRatio,p.adjust
+Carbohydrate transport and metabolism,52,0.12590799031476999,0.04955749750796864
+Transcription,46,0.11138014527845036,0.04955749750796864
+Nucleotide transport and metabolism,30,0.07263922518159806,0.054050826770687135
+"Post-translational modification, protein turnover, chaperones",15,0.03631961259079903,0.4002580811104834
+Lipid transport and metabolism,14,0.03389830508474576,0.4002580811104834
+Inorganic ion transport and metabolism,27,0.06537530266343826,0.4557745525739964
+Amino acid transport and metabolism,38,0.09200968523002422,0.6280816895313874
+Energy production and conversion,15,0.03631961259079903,0.7052717385835234
+Function unknown,95,0.23002421307506055,0.7955997194875125
+Coenzyme transport and metabolism,12,0.029055690072639227,0.7955997194875125
+Cell motility,3,0.007263922518159807,0.8827641496628456
+"Translation, ribosomal structure and biogenesis",20,0.048426150121065374,0.999939031931214
+"Replication, recombination and repair",19,0.04600484261501211,0.999939031931214
+Cell wall/membrane/envelope biogenesis,14,0.03389830508474576,0.999939031931214
+Defense mechanisms,11,0.026634382566585957,0.999939031931214
+Signal transduction mechanisms,10,0.024213075060532687,0.999939031931214
+"Intracellular trafficking, secretion, and vesicular transport",5,0.012106537530266344,0.999939031931214
+"Cell cycle control, cell division, chromosome partitioning",4,0.009685230024213076,0.999939031931214
+"Secondary metabolites biosynthesis, transport and catabolism",4,0.009685230024213076,0.999939031931214

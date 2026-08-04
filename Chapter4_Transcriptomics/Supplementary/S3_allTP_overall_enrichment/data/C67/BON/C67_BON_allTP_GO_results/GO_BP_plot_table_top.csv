@@ -1,0 +1,8 @@
+Description,Count,GeneRatio,p.adjust
+molecular_function,7,0.14,0.6573704131984087
+RNA binding,3,0.06,1
+regulation of DNA-templated transcription,3,0.06,1
+DNA binding,2,0.04,1
+aspartate-semialdehyde dehydrogenase activity,2,0.04,1
+rRNA modification,2,0.04,1
+mitotic cell cycle,1,0.02,1

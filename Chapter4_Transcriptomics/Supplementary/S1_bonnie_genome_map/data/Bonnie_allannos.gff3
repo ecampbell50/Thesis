@@ -1,0 +1,75 @@
+##gff-version 3
+##sequence-region BONNIE|PQ720431.1 1 36155
+BONNIE|PQ720431.1	.	region	1	36155	.	+	.	ID=BONNIE|PQ720431.1;Name=BONNIE|PQ720431.1
+BONNIE|PQ720431.1	Phold	CDS	53	400	.	+	0	ID=PENJXGPI_CDS_0001;locus_tag=PENJXGPI_CDS_0001;product=terminase small subunit
+BONNIE|PQ720431.1	Phold	CDS	384	2036	.	+	0	ID=PENJXGPI_CDS_0002;locus_tag=PENJXGPI_CDS_0002;product=terminase large subunit
+BONNIE|PQ720431.1	Phold	CDS	2046	2297	.	+	0	ID=PENJXGPI_CDS_0003;locus_tag=PENJXGPI_CDS_0003;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	2327	3586	.	+	0	ID=PENJXGPI_CDS_0004;locus_tag=PENJXGPI_CDS_0004;product=portal protein
+BONNIE|PQ720431.1	Phold	CDS	3522	4253	.	+	0	ID=PENJXGPI_CDS_0005;locus_tag=PENJXGPI_CDS_0005;product=head maturation protease
+BONNIE|PQ720431.1	Phold	CDS	4259	5449	.	+	0	ID=PENJXGPI_CDS_0006;locus_tag=PENJXGPI_CDS_0006;product=major head protein
+BONNIE|PQ720431.1	Phold	CDS	5468	5758	.	+	0	ID=PENJXGPI_CDS_0007;locus_tag=PENJXGPI_CDS_0007;product=Arc-like repressor
+BONNIE|PQ720431.1	Phold	CDS	5773	6072	.	+	0	ID=PENJXGPI_CDS_0008;locus_tag=PENJXGPI_CDS_0008;product=head-tail connector protein
+BONNIE|PQ720431.1	Phold	CDS	6065	6442	.	+	0	ID=PENJXGPI_CDS_0009;locus_tag=PENJXGPI_CDS_0009;product=head-tail adaptor
+BONNIE|PQ720431.1	Phold	CDS	6405	6776	.	+	0	ID=PENJXGPI_CDS_0010;locus_tag=PENJXGPI_CDS_0010;product=tail terminator
+BONNIE|PQ720431.1	Phold	CDS	6781	7203	.	+	0	ID=PENJXGPI_CDS_0011;locus_tag=PENJXGPI_CDS_0011;product=neck protein
+BONNIE|PQ720431.1	Phold	CDS	7214	7804	.	+	0	ID=PENJXGPI_CDS_0012;locus_tag=PENJXGPI_CDS_0012;product=major tail protein
+BONNIE|PQ720431.1	Phold	CDS	7817	8149	.	+	0	ID=PENJXGPI_CDS_0013;locus_tag=PENJXGPI_CDS_0013;product=tail protein
+BONNIE|PQ720431.1	Phold	CDS	8183	8281	.	+	0	ID=PENJXGPI_CDS_0014;locus_tag=PENJXGPI_CDS_0014;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	8266	8355	.	+	0	ID=PENJXGPI_CDS_0015;locus_tag=PENJXGPI_CDS_0015;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	8368	11772	.	+	0	ID=PENJXGPI_CDS_0016;locus_tag=PENJXGPI_CDS_0016;product=tail length tape measure protein
+BONNIE|PQ720431.1	Phold	CDS	11834	12511	.	+	0	ID=PENJXGPI_CDS_0017;locus_tag=PENJXGPI_CDS_0017;product=distal tail protein Dit
+BONNIE|PQ720431.1	Phold	CDS	12508	15480	.	+	0	ID=PENJXGPI_CDS_0018;locus_tag=PENJXGPI_CDS_0018;product=tail protein
+BONNIE|PQ720431.1	Phold	CDS	15482	17530	.	+	0	ID=PENJXGPI_CDS_0019;locus_tag=PENJXGPI_CDS_0019;product=tail protein
+BONNIE|PQ720431.1	Phold	CDS	17543	17977	.	+	0	ID=PENJXGPI_CDS_0020;locus_tag=PENJXGPI_CDS_0020;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	17910	18152	.	+	0	ID=PENJXGPI_CDS_0021;locus_tag=PENJXGPI_CDS_0021;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	18156	18434	.	+	0	ID=PENJXGPI_CDS_0022;locus_tag=PENJXGPI_CDS_0022;product=holin
+BONNIE|PQ720431.1	Phold	CDS	18440	18682	.	+	0	ID=PENJXGPI_CDS_0023;locus_tag=PENJXGPI_CDS_0023;product=holin
+BONNIE|PQ720431.1	Phold	CDS	18679	18780	.	+	0	ID=PENJXGPI_CDS_0024;locus_tag=PENJXGPI_CDS_0024;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	18770	20200	.	+	0	ID=PENJXGPI_CDS_0025;locus_tag=PENJXGPI_CDS_0025;product=amidase
+BONNIE|PQ720431.1	Phold	CDS	20284	20475	.	-	0	ID=PENJXGPI_CDS_0026;locus_tag=PENJXGPI_CDS_0026;product=transcriptional regulator
+BONNIE|PQ720431.1	Phold	CDS	20485	20604	.	-	0	ID=PENJXGPI_CDS_0027;locus_tag=PENJXGPI_CDS_0027;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	20636	20746	.	-	0	ID=PENJXGPI_CDS_0028;locus_tag=PENJXGPI_CDS_0028;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	20718	20825	.	+	0	ID=PENJXGPI_CDS_0029;locus_tag=PENJXGPI_CDS_0029;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	20877	20984	.	+	0	ID=PENJXGPI_CDS_0030;locus_tag=PENJXGPI_CDS_0030;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	21070	22137	.	-	0	ID=PENJXGPI_CDS_0031;locus_tag=PENJXGPI_CDS_0031;product=integrase
+BONNIE|PQ720431.1	Phold	CDS	22272	22874	.	-	0	ID=PENJXGPI_CDS_0032;locus_tag=PENJXGPI_CDS_0032;product=beta-lactamase-inhibitor protein BLIP
+BONNIE|PQ720431.1	Phold	CDS	22925	23305	.	-	0	ID=PENJXGPI_CDS_0033;locus_tag=PENJXGPI_CDS_0033;product=metallo-protease
+BONNIE|PQ720431.1	Phold	CDS	23312	23674	.	-	0	ID=PENJXGPI_CDS_0034;locus_tag=PENJXGPI_CDS_0034;product=transcriptional regulator
+BONNIE|PQ720431.1	Phold	CDS	23897	23995	.	+	0	ID=PENJXGPI_CDS_0035;locus_tag=PENJXGPI_CDS_0035;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	23964	24275	.	+	0	ID=PENJXGPI_CDS_0036;locus_tag=PENJXGPI_CDS_0036;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	24277	24480	.	+	0	ID=PENJXGPI_CDS_0037;locus_tag=PENJXGPI_CDS_0037;product=transcriptional repressor
+BONNIE|PQ720431.1	Phold	CDS	24569	24688	.	+	0	ID=PENJXGPI_CDS_0038;locus_tag=PENJXGPI_CDS_0038;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	24681	24815	.	+	0	ID=PENJXGPI_CDS_0039;locus_tag=PENJXGPI_CDS_0039;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	24812	25156	.	+	0	ID=PENJXGPI_CDS_0040;locus_tag=PENJXGPI_CDS_0040;product=transcriptional regulator
+BONNIE|PQ720431.1	Phold	CDS	25203	25670	.	+	0	ID=PENJXGPI_CDS_0041;locus_tag=PENJXGPI_CDS_0041;product=anti-repressor Ant
+BONNIE|PQ720431.1	Phold	CDS	25726	26010	.	+	0	ID=PENJXGPI_CDS_0042;locus_tag=PENJXGPI_CDS_0042;product=HTH DNA binding protein
+BONNIE|PQ720431.1	Phold	CDS	26007	26189	.	+	0	ID=PENJXGPI_CDS_0043;locus_tag=PENJXGPI_CDS_0043;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	26191	26445	.	+	0	ID=PENJXGPI_CDS_0044;locus_tag=PENJXGPI_CDS_0044;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	26448	26624	.	+	0	ID=PENJXGPI_CDS_0045;locus_tag=PENJXGPI_CDS_0045;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	26674	27414	.	+	0	ID=PENJXGPI_CDS_0046;locus_tag=PENJXGPI_CDS_0046;product=DnaD-like helicase loader
+BONNIE|PQ720431.1	Phold	CDS	27402	27632	.	+	0	ID=PENJXGPI_CDS_0047;locus_tag=PENJXGPI_CDS_0047;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	27644	27784	.	+	0	ID=PENJXGPI_CDS_0048;locus_tag=PENJXGPI_CDS_0048;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	27815	28057	.	+	0	ID=PENJXGPI_CDS_0049;locus_tag=PENJXGPI_CDS_0049;product=nucleotide kinase
+BONNIE|PQ720431.1	Phold	CDS	28041	28181	.	+	0	ID=PENJXGPI_CDS_0050;locus_tag=PENJXGPI_CDS_0050;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	28226	29209	.	+	0	ID=PENJXGPI_CDS_0051;locus_tag=PENJXGPI_CDS_0051;product=DNA methyltransferase
+BONNIE|PQ720431.1	Phold	CDS	29202	29723	.	+	0	ID=PENJXGPI_CDS_0052;locus_tag=PENJXGPI_CDS_0052;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	29723	29866	.	+	0	ID=PENJXGPI_CDS_0053;locus_tag=PENJXGPI_CDS_0053;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	29894	30421	.	+	0	ID=PENJXGPI_CDS_0054;locus_tag=PENJXGPI_CDS_0054;product=DNA methyltransferase
+BONNIE|PQ720431.1	Phold	CDS	30405	30542	.	+	0	ID=PENJXGPI_CDS_0055;locus_tag=PENJXGPI_CDS_0055;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	30536	30958	.	+	0	ID=PENJXGPI_CDS_0056;locus_tag=PENJXGPI_CDS_0056;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	30942	31109	.	+	0	ID=PENJXGPI_CDS_0057;locus_tag=PENJXGPI_CDS_0057;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	31106	31312	.	+	0	ID=PENJXGPI_CDS_0058;locus_tag=PENJXGPI_CDS_0058;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	31309	31518	.	+	0	ID=PENJXGPI_CDS_0059;locus_tag=PENJXGPI_CDS_0059;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	31515	31778	.	+	0	ID=PENJXGPI_CDS_0060;locus_tag=PENJXGPI_CDS_0060;product=transcriptional regulator
+BONNIE|PQ720431.1	Phold	CDS	31782	32198	.	+	0	ID=PENJXGPI_CDS_0061;locus_tag=PENJXGPI_CDS_0061;product=single strand DNA binding protein
+BONNIE|PQ720431.1	Phold	CDS	32208	32624	.	+	0	ID=PENJXGPI_CDS_0062;locus_tag=PENJXGPI_CDS_0062;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	32633	33022	.	+	0	ID=PENJXGPI_CDS_0063;locus_tag=PENJXGPI_CDS_0063;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	33009	33176	.	+	0	ID=PENJXGPI_CDS_0064;locus_tag=PENJXGPI_CDS_0064;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	33139	33687	.	+	0	ID=PENJXGPI_CDS_0065;locus_tag=PENJXGPI_CDS_0065;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	33684	33863	.	+	0	ID=PENJXGPI_CDS_0066;locus_tag=PENJXGPI_CDS_0066;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	33872	34012	.	+	0	ID=PENJXGPI_CDS_0067;locus_tag=PENJXGPI_CDS_0067;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	33981	34214	.	+	0	ID=PENJXGPI_CDS_0068;locus_tag=PENJXGPI_CDS_0068;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	34186	34650	.	+	0	ID=PENJXGPI_CDS_0069;locus_tag=PENJXGPI_CDS_0069;product=transcriptional regulator
+BONNIE|PQ720431.1	Phold	CDS	34784	35347	.	+	0	ID=PENJXGPI_CDS_0070;locus_tag=PENJXGPI_CDS_0070;product=integrase
+BONNIE|PQ720431.1	Phold	CDS	35503	35796	.	+	0	ID=PENJXGPI_CDS_0071;locus_tag=PENJXGPI_CDS_0071;product=hypothetical protein
+BONNIE|PQ720431.1	Phold	CDS	35766	36122	.	+	0	ID=PENJXGPI_CDS_0072;locus_tag=PENJXGPI_CDS_0072;product=HNH endonuclease

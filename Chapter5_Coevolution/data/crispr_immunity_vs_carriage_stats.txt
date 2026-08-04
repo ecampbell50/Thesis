@@ -1,0 +1,3 @@
+universe: 65 spacer-bearing lineages x 85 real prophage communities
+P(carry|target)=0.028  P(carry|no target)=0.014
+Fisher OR=2.068  p=1.028e-03  (OR>1 => spacer presence POSITIVELY associated with carriage)

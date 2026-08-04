@@ -1,0 +1,68 @@
+##gff-version 3
+##sequence-region CLYDE|PQ720432.1 1 34734
+CLYDE|PQ720432.1	.	region	1	34734	.	+	.	ID=CLYDE|PQ720432.1;Name=CLYDE|PQ720432.1
+CLYDE|PQ720432.1	Phold	CDS	18	455	.	-	0	ID=ZUDWSPYW_CDS_0001;locus_tag=ZUDWSPYW_CDS_0001;product=HNH endonuclease
+CLYDE|PQ720432.1	Phold	CDS	462	896	.	-	0	ID=ZUDWSPYW_CDS_0002;locus_tag=ZUDWSPYW_CDS_0002;product=transcriptional regulator
+CLYDE|PQ720432.1	Phold	CDS	995	1216	.	-	0	ID=ZUDWSPYW_CDS_0003;locus_tag=ZUDWSPYW_CDS_0003;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	1216	1731	.	-	0	ID=ZUDWSPYW_CDS_0004;locus_tag=ZUDWSPYW_CDS_0004;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	1728	2030	.	-	0	ID=ZUDWSPYW_CDS_0005;locus_tag=ZUDWSPYW_CDS_0005;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	2040	2426	.	-	0	ID=ZUDWSPYW_CDS_0006;locus_tag=ZUDWSPYW_CDS_0006;product=Holliday junction resolvase
+CLYDE|PQ720432.1	Phold	CDS	2555	2887	.	-	0	ID=ZUDWSPYW_CDS_0007;locus_tag=ZUDWSPYW_CDS_0007;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	2897	4279	.	-	0	ID=ZUDWSPYW_CDS_0008;locus_tag=ZUDWSPYW_CDS_0008;product=acetyltransferase
+CLYDE|PQ720432.1	Phold	CDS	4276	4734	.	-	0	ID=ZUDWSPYW_CDS_0009;locus_tag=ZUDWSPYW_CDS_0009;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	4875	5150	.	-	0	ID=ZUDWSPYW_CDS_0010;locus_tag=ZUDWSPYW_CDS_0010;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	5164	6000	.	-	0	ID=ZUDWSPYW_CDS_0011;locus_tag=ZUDWSPYW_CDS_0011;product=exonuclease
+CLYDE|PQ720432.1	Phold	CDS	5993	7207	.	-	0	ID=ZUDWSPYW_CDS_0012;locus_tag=ZUDWSPYW_CDS_0012;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	7207	8118	.	-	0	ID=ZUDWSPYW_CDS_0013;locus_tag=ZUDWSPYW_CDS_0013;product=RecT-like ssDNA annealing protein
+CLYDE|PQ720432.1	Phold	CDS	8115	8318	.	-	0	ID=ZUDWSPYW_CDS_0014;locus_tag=ZUDWSPYW_CDS_0014;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	8294	8422	.	-	0	ID=ZUDWSPYW_CDS_0015;locus_tag=ZUDWSPYW_CDS_0015;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	8433	8576	.	-	0	ID=ZUDWSPYW_CDS_0016;locus_tag=ZUDWSPYW_CDS_0016;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	8530	8640	.	+	0	ID=ZUDWSPYW_CDS_0017;locus_tag=ZUDWSPYW_CDS_0017;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	8836	9201	.	-	0	ID=ZUDWSPYW_CDS_0018;locus_tag=ZUDWSPYW_CDS_0018;product=DNA binding protein
+CLYDE|PQ720432.1	Phold	CDS	9254	9379	.	-	0	ID=ZUDWSPYW_CDS_0019;locus_tag=ZUDWSPYW_CDS_0019;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	9381	9527	.	-	0	ID=ZUDWSPYW_CDS_0020;locus_tag=ZUDWSPYW_CDS_0020;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	9517	9804	.	-	0	ID=ZUDWSPYW_CDS_0021;locus_tag=ZUDWSPYW_CDS_0021;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	9801	10112	.	-	0	ID=ZUDWSPYW_CDS_0022;locus_tag=ZUDWSPYW_CDS_0022;product=excisionase
+CLYDE|PQ720432.1	Phold	CDS	10192	10386	.	-	0	ID=ZUDWSPYW_CDS_0023;locus_tag=ZUDWSPYW_CDS_0023;product=transcriptional repressor
+CLYDE|PQ720432.1	Phold	CDS	10448	10585	.	-	0	ID=ZUDWSPYW_CDS_0024;locus_tag=ZUDWSPYW_CDS_0024;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	10624	10737	.	-	0	ID=ZUDWSPYW_CDS_0025;locus_tag=ZUDWSPYW_CDS_0025;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	10789	10908	.	-	0	ID=ZUDWSPYW_CDS_0026;locus_tag=ZUDWSPYW_CDS_0026;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	10970	11488	.	+	0	ID=ZUDWSPYW_CDS_0027;locus_tag=ZUDWSPYW_CDS_0027;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	11475	11588	.	-	0	ID=ZUDWSPYW_CDS_0028;locus_tag=ZUDWSPYW_CDS_0028;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	11602	11808	.	-	0	ID=ZUDWSPYW_CDS_0029;locus_tag=ZUDWSPYW_CDS_0029;product=transcriptional repressor
+CLYDE|PQ720432.1	Phold	CDS	11893	11991	.	-	0	ID=ZUDWSPYW_CDS_0030;locus_tag=ZUDWSPYW_CDS_0030;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	11994	12716	.	+	0	ID=ZUDWSPYW_CDS_0031;locus_tag=ZUDWSPYW_CDS_0031;product=transcriptional repressor
+CLYDE|PQ720432.1	Phold	CDS	12797	13033	.	+	0	ID=ZUDWSPYW_CDS_0032;locus_tag=ZUDWSPYW_CDS_0032;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	13033	13767	.	+	0	ID=ZUDWSPYW_CDS_0033;locus_tag=ZUDWSPYW_CDS_0033;product=DefenseFinder protein
+CLYDE|PQ720432.1	Phold	CDS	13873	13968	.	-	0	ID=ZUDWSPYW_CDS_0034;locus_tag=ZUDWSPYW_CDS_0034;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	14021	15163	.	+	0	ID=ZUDWSPYW_CDS_0035;locus_tag=ZUDWSPYW_CDS_0035;product=integrase
+CLYDE|PQ720432.1	Phold	CDS	15376	15483	.	+	0	ID=ZUDWSPYW_CDS_0036;locus_tag=ZUDWSPYW_CDS_0036;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	15524	15691	.	+	0	ID=ZUDWSPYW_CDS_0037;locus_tag=ZUDWSPYW_CDS_0037;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	15684	16421	.	-	0	ID=ZUDWSPYW_CDS_0038;locus_tag=ZUDWSPYW_CDS_0038;product=endolysin
+CLYDE|PQ720432.1	Phold	CDS	16418	16522	.	-	0	ID=ZUDWSPYW_CDS_0039;locus_tag=ZUDWSPYW_CDS_0039;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	16519	16947	.	-	0	ID=ZUDWSPYW_CDS_0040;locus_tag=ZUDWSPYW_CDS_0040;product=holin
+CLYDE|PQ720432.1	Phold	CDS	16951	17295	.	-	0	ID=ZUDWSPYW_CDS_0041;locus_tag=ZUDWSPYW_CDS_0041;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	17298	17516	.	-	0	ID=ZUDWSPYW_CDS_0042;locus_tag=ZUDWSPYW_CDS_0042;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	17525	22108	.	-	0	ID=ZUDWSPYW_CDS_0043;locus_tag=ZUDWSPYW_CDS_0043;product=tail protein
+CLYDE|PQ720432.1	Phold	CDS	22105	22800	.	-	0	ID=ZUDWSPYW_CDS_0044;locus_tag=ZUDWSPYW_CDS_0044;product=distal tail protein Dit
+CLYDE|PQ720432.1	Phold	CDS	22800	25040	.	-	0	ID=ZUDWSPYW_CDS_0045;locus_tag=ZUDWSPYW_CDS_0045;product=tail length tape measure protein
+CLYDE|PQ720432.1	Phold	CDS	25025	25129	.	-	0	ID=ZUDWSPYW_CDS_0046;locus_tag=ZUDWSPYW_CDS_0046;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	25119	25235	.	+	0	ID=ZUDWSPYW_CDS_0047;locus_tag=ZUDWSPYW_CDS_0047;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	25223	25327	.	+	0	ID=ZUDWSPYW_CDS_0048;locus_tag=ZUDWSPYW_CDS_0048;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	25372	25755	.	-	0	ID=ZUDWSPYW_CDS_0049;locus_tag=ZUDWSPYW_CDS_0049;product=tail assembly chaperone
+CLYDE|PQ720432.1	Phold	CDS	25752	26030	.	-	0	ID=ZUDWSPYW_CDS_0050;locus_tag=ZUDWSPYW_CDS_0050;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	26041	26628	.	-	0	ID=ZUDWSPYW_CDS_0051;locus_tag=ZUDWSPYW_CDS_0051;product=major tail protein
+CLYDE|PQ720432.1	Phold	CDS	26644	26979	.	-	0	ID=ZUDWSPYW_CDS_0052;locus_tag=ZUDWSPYW_CDS_0052;product=tail terminator
+CLYDE|PQ720432.1	Phold	CDS	26976	27215	.	-	0	ID=ZUDWSPYW_CDS_0053;locus_tag=ZUDWSPYW_CDS_0053;product=neck protein
+CLYDE|PQ720432.1	Phold	CDS	27208	27546	.	-	0	ID=ZUDWSPYW_CDS_0054;locus_tag=ZUDWSPYW_CDS_0054;product=head closure Hc1
+CLYDE|PQ720432.1	Phold	CDS	27533	27928	.	-	0	ID=ZUDWSPYW_CDS_0055;locus_tag=ZUDWSPYW_CDS_0055;product=head-tail adaptor Ad1
+CLYDE|PQ720432.1	Phold	CDS	27932	28150	.	-	0	ID=ZUDWSPYW_CDS_0056;locus_tag=ZUDWSPYW_CDS_0056;product=Arc-like repressor
+CLYDE|PQ720432.1	Phold	CDS	28152	29042	.	-	0	ID=ZUDWSPYW_CDS_0057;locus_tag=ZUDWSPYW_CDS_0057;product=major head protein
+CLYDE|PQ720432.1	Phold	CDS	29046	29561	.	-	0	ID=ZUDWSPYW_CDS_0058;locus_tag=ZUDWSPYW_CDS_0058;product=head scaffolding protein
+CLYDE|PQ720432.1	Phold	CDS	29593	31008	.	-	0	ID=ZUDWSPYW_CDS_0059;locus_tag=ZUDWSPYW_CDS_0059;product=terminase large subunit
+CLYDE|PQ720432.1	Phold	CDS	31138	31317	.	-	0	ID=ZUDWSPYW_CDS_0060;locus_tag=ZUDWSPYW_CDS_0060;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	31326	31571	.	-	0	ID=ZUDWSPYW_CDS_0061;locus_tag=ZUDWSPYW_CDS_0061;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	31626	31916	.	-	0	ID=ZUDWSPYW_CDS_0062;locus_tag=ZUDWSPYW_CDS_0062;product=hypothetical protein
+CLYDE|PQ720432.1	Phold	CDS	31864	33084	.	-	0	ID=ZUDWSPYW_CDS_0063;locus_tag=ZUDWSPYW_CDS_0063;product=minor head protein
+CLYDE|PQ720432.1	Phold	CDS	33077	34342	.	-	0	ID=ZUDWSPYW_CDS_0064;locus_tag=ZUDWSPYW_CDS_0064;product=portal protein
+CLYDE|PQ720432.1	Phold	CDS	34339	34701	.	-	0	ID=ZUDWSPYW_CDS_0065;locus_tag=ZUDWSPYW_CDS_0065;product=hypothetical protein
