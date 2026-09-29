@@ -1,0 +1,37 @@
+# Medoid representatives, top 15 prophage communities
+# Selected as the member with the highest mean within-community sourmash Jaccard
+# similarity to all other members (k=15, scaled=500), i.e. the most typical sequence.
+# Source: Ssuis_3216proviruses_k15s500_44_intra_community_PRO.csv (282,855 pairs)
+# Generated 2026-07-30. For VIRIDIC intergenomic similarity analysis.
+#
+# community  n_members  mean_J  representative
+# PRO_com_4    713      0.9808
+993512.3_CP002570_provirus-1392074-1405153.fna
+# PRO_com_5    203      0.9025
+1307.891_FIII01000003_provirus-12904-52969.fna
+# PRO_com_7    125      0.9348
+1307.986_FIIA01000010_provirus-56764-74609.fna
+# PRO_com_65    82      0.9544
+1307.3944_JAIMZE010000001_provirus-118664-128461.fna
+# PRO_com_38    72      0.8583
+1307.5583_CP100431_provirus-2142240-2158066.fna
+# PRO_com_57    67      0.7478
+1307.5967_JAKTAJ010000023_provirus-5743-31997.fna
+# PRO_com_99    65      0.7767   (the ICE community)
+1307.2545_PKOW01000001_provirus-114-105135.fna
+# PRO_com_74    57      0.9104
+1307.3942_JAIMDQ010000003_provirus-66207-113519.fna
+# PRO_com_62    53      0.9170
+1307.5080_JAKTAL010000006_provirus-98-16224.fna
+# PRO_com_10    44      0.8980
+1307.620_CP012911_provirus-2257068-2269652.fna
+# PRO_com_6     42      0.7509
+1307.971_FIIY01000016_provirus-31257-40600.fna
+# PRO_com_109   41      0.9618
+1340847.3_CP006246_provirus-1205896-1240430.fna
+# PRO_com_111   38      0.9256
+1340847.3_CP006246_provirus-1660695-1696703.fna
+# PRO_com_189   33      0.8878
+1307.5056_JAKTCB010000002_provirus-112117-154334.fna
+# PRO_com_107   32      0.9802
+1307.5544_JAMWGR010000001_provirus-72600-105736.fna

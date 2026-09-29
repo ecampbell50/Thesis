@@ -34,10 +34,10 @@ import sys
 import pandas as pd
 import numpy as np
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
-RES  = os.path.join(ROOT, "Results")
-PD_DIR = os.path.join(RES, "prophage_defence")
-OUT  = os.path.join(RES, "coevolution")
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # Chapter5_Coevolution/
+RES  = ROOT
+PD_DIR = ROOT
+OUT  = ROOT
 os.makedirs(OUT, exist_ok=True)
 
 # ---- tunable thresholds -----------------------------------------------------

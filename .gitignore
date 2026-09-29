@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Icon?
+._*
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Editor
+*.swp
+
+# Large network intermediates (>25MB, exceed GitHub limits)
+spacer_prophage_similarity*.graphml
+spacer_prophage_similarity_edges.csv
+crispr_spacer_prophage_module.graphml
+crispr_targeting_events.csv
