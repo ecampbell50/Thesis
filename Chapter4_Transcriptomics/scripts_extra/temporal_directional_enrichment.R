@@ -1,33 +1,5 @@
-# ══════════════════════════════════════════════════════════════════════════════
-# temporal_directional_enrichment.R
-#
-# WHAT THIS SCRIPT DOES  (Emmet's "ridgeline" idea, directional version)
-# ─────────────────────
-# A TEMPORAL + DIRECTIONAL view of the normal (vs-uninfected-control) ORA.
-# For each functional term that is ORA-enriched (union of DEGs across timepoints),
-# it shows — at every timepoint — what fraction of the term's genes are
-# significantly UP vs control (drawn above the row baseline) and what fraction are
-# DOWN (drawn below). Bonnie and Clyde sit in adjacent sub-panels per strain.
-#
-#   y (per row)  = a functional term; band rises above baseline = % genes UP,
-#                  falls below = % genes DOWN  (% of the term's *tested* genes)
-#   x            = time post-infection (2,10,20,30,50 min)
-#   facets       = strain (C67/D32/D68) ▸ phage (Bonnie/Clyde)
-#   panels       = COG (top) and KEGG (bottom)
-#
-# WHY vs-control:  up/down here means induced/repressed RELATIVE TO UNINFECTED,
-# which is the only baseline that makes "up" and "down" biologically true. (The
-# separate Bonnie-vs-Clyde enrichment answers the different "where do they
-# diverge" question.)
-#
-# METRIC:  band height = % of the term's TESTED genes that are DE in that
-# direction at that timepoint.  Denominator = whole pathway (tested), so the
-# 0–100% scale is comparable across terms of different sizes.
-#
-# Built on the same enrichment machinery as *-analysis-strept.R (clusterProfiler).
-# ══════════════════════════════════════════════════════════════════════════════
+# COG and KEGG terms: % of genes up/down vs control over time (Fig S4.7, S4.8).
 
-# ── 0. Packages ───────────────────────────────────────────────────────────────
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 if (!requireNamespace("clusterProfiler", quietly = TRUE)) BiocManager::install("clusterProfiler", update = FALSE)
 for (pkg in c("ggh4x", "patchwork")) if (!requireNamespace(pkg, quietly = TRUE)) install.packages(pkg)

@@ -1,14 +1,5 @@
 #!/usr/bin/env Rscript
-# ---------------------------------------------------------------------------
-# crosswalk_old_vs_new_communities.R
-#
-# For each of the new top-15 BAC/PRO communities (from the noBAC2/noPRO4
-# Netpass re-runs), shows exactly which OLD community(ies) its member
-# genomes/prophages came from, and in what proportions. This replaces
-# eyeballing colour-matched rings on the tree (which is unreliable, since the
-# old and new legends assign the SAME colour to DIFFERENT community numbers)
-# with a direct genome-level crosswalk.
-# ---------------------------------------------------------------------------
+# Maps the re-run top-15 communities back to the originals (Fig S5.5).
 
 suppressMessages(library(data.table))
 

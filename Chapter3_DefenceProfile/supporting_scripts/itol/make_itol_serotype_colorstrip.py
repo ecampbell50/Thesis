@@ -1,17 +1,6 @@
 #!/usr/bin/env python3
-"""
-create_itol_serotype_dataset.py
-Generate iToL COLORSTRIP dataset from serotype dataframe with custom colours
+# iTOL serotype colour strip (Fig 3.6).
 
-Usage in Jupyter:
-    from create_itol_serotype_dataset import create_serotype_itol_dataset
-    
-    create_serotype_itol_dataset(
-        serotype_df=serotype_df,
-        serotype_colours_file='serotype_colours.csv',
-        output_file='serotype_dataset_itol.txt'
-    )
-"""
 
 import pandas as pd
 

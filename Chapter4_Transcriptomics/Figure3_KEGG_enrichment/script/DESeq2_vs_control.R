@@ -1,12 +1,9 @@
+# DESeq2, each phage vs time-matched control at every timepoint (ashr shrinkage). Used for Fig 4.3, 4.4.
+
 if (!("DESeq2" %in% installed.packages())) BiocManager::install("DESeq2", update = FALSE)
 if (!("ashr" %in% installed.packages())) BiocManager::install("ashr", update = FALSE)
 if (!("ggrepel" %in% installed.packages())) install.packages("ggrepel")
 if (!("RColorBrewer" %in% installed.packages())) install.packages("RColorBrewer")
-if (!("httpgd" %in% installed.packages())) install.packages("httpgd")
-# ↑ httpgd enables the VS Code plot viewer panel.
-# After installing, close this R terminal and open a new one via:
-# Cmd+Shift+P → "R: Create R Terminal"
-# Plots will then appear automatically in VS Code's "Plots" panel (top-right).
 
 library(DESeq2)
 library(ggplot2)
@@ -139,7 +136,7 @@ if (STRAIN == "C67") {
     "D32_prot_00042" = "Gabija_S1G1",
 
     # ── Ogmios ────────────────────────────────────────────
-    "D32_prot_01386" = "Ogmios_S1G1",  # ⚠ MAPPING-status only — lower confidence
+    "D32_prot_01386" = "Ogmios_S1G1",
 
     # ── PD-T4-6 ───────────────────────────────────────────
     "D32_prot_01328" = "PD-T4-6_S1G1",
@@ -184,7 +181,7 @@ if (STRAIN == "C67") {
     "D32_prot_01867" = "Theoris_S1G1",
 
     # ── tmn ───────────────────────────────────────────────
-    "D32_prot_01369" = "tmn_S1G1"  # ⚠ MAPPING-status only — lower confidence
+    "D32_prot_01369" = "tmn_S1G1"
 
   )
   prophage_genes_D32 <- c(
@@ -239,7 +236,7 @@ if (STRAIN == "C67") {
     "D68_prot_00324" = "Gabija_S1G1",
 
     # ── Ogmios ────────────────────────────────────────────
-    "D68_prot_01102" = "Ogmios_S1G1",  # ⚠ MAPPING-status only — lower confidence
+    "D68_prot_01102" = "Ogmios_S1G1",
 
     # ── PD-T4-6 ───────────────────────────────────────────
     "D68_prot_01160" = "PD-T4-6_S1G1",
@@ -280,7 +277,7 @@ if (STRAIN == "C67") {
     "D68_prot_01871" = "Theoris_S1G1",
 
     # ── tmn ───────────────────────────────────────────────
-    "D68_prot_01119" = "tmn_S1G1"  # ⚠ MAPPING-status only — lower confidence
+    "D68_prot_01119" = "tmn_S1G1"
 
   )
   prophage_genes_D68 <- c(

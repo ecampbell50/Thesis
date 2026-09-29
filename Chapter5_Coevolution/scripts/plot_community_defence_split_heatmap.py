@@ -1,26 +1,5 @@
 #!/usr/bin/env python3
-# =============================================================================
-# Chapter-1-style binomial-exact heatmap, adapted to:
-#     prophage community  x  host defence subtype
-#
-# Chapter 1 was system x system (symmetric) -> upper/lower triangle split.
-# This matrix is RECTANGULAR (communities vs subtypes), so the "split" is by
-# COLOUR within one grid, matching the chapter-1 palette:
-#     ocean blue   = association   (enriched / co-occur,  log2(O/E) > 0)
-#     pastel mag.  = dissociation  (depleted / exclusion, log2(O/E) < 0)
-#     grey         = not significant (FDR-corrected p >= alpha)
-#
-#   colour intensity = STRENGTH of interaction = |log2(O/E)|   (effect size)
-#       O = community hosts carrying the system
-#       E = n_hosts * population frequency of the system
-#       NB: intensity gradient is scaled to the SHOWN cells only (relative, not absolute)
-#   rows + cols hierarchically clustered -> shared signatures form blocks
-#   left strip = #bacterial communities the prophage community spans (binned)
-#   row/col filter (MIN_SIG_*) counts SIGNIFICANT INTERACTIONS in either direction
-#       (enrichments + depletions together), not associations only
-#
-# Source: community_defence_enrichment.csv (binomial exact, BH-FDR).
-# =============================================================================
+# Prophage community x host defence subtype heatmap (Fig 5.14, Fig S5.4).
 
 import os
 import numpy as np
@@ -103,7 +82,7 @@ if ANNOTATE is None:
 assoc_cmap  = mcolors.LinearSegmentedColormap.from_list("ocean_blue",     ["#d6eaf8", "#2e86c1", "#1a5276"])
 dissoc_cmap = mcolors.LinearSegmentedColormap.from_list("pastel_magenta", ["#f5d5e0", "#c3447a", "#7b2d50"])
 
-# NB: the colour gradient is normalised to the min/max of the SHOWN cells only.
+# Colour scale is relative to the cells shown.
 # Changing MIN_SIG_C/S changes which cells are shown, so the same log2(O/E) value
 # can map to a different shade between the 'all' and 'top-N' figures. The per-cell
 # maths (O, E, log2OE, significance) is identical; only the colour scaling is relative.

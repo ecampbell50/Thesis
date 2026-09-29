@@ -1,30 +1,6 @@
 #!/usr/bin/env python3
-# =============================================================================
-# Prophage community  x  host defence-system analysis
-#
-# Hypothesis (chapter aim):
-#   Prophages cluster into communities because they are genomically similar
-#   (sourmash). A single prophage community can sit inside hosts that fall in
-#   several *different* bacterial communities (the prophages are similar, but
-#   their hosts are not similar enough to co-cluster). So: when one prophage
-#   community spans multiple bacterial communities, is there something common
-#   among those hosts -- e.g. the defence systems they carry?
-#
-# This script answers the defence-system part:
-#   For every prophage community, take the set of distinct HOST genomes of its
-#   member prophages and ask which defence systems are ALWAYS present, NEVER
-#   present, or statistically enriched / depleted relative to the whole
-#   S. suis population (Fisher's exact test, BH-FDR corrected).
-#
-# Join chain (validated 100% coverage):
-#   prophage  --(ID prefix before first '_')-->  host genome
-#   host genome --> its bacterial community (genome_community_mapping_49_BAC)
-#   host genome --> its defence profile      (Ssuis_DefenceMatrix_CLEAN_FINAL)
-#
-# IMPORTANT: genome_id is read as TEXT everywhere. As a float, '1307.1890'
-# collapses onto '1307.189' (trailing zero dropped) and two distinct BV-BRC
-# genomes merge. dtype=str on every load + every merge key keeps them apart.
-# =============================================================================
+# Defence systems enriched/depleted in the hosts of each prophage community (Fisher's exact, BH).
+# Writes data/community_defence_*.csv (used for Fig 5.14, S5.4). Genome IDs read as text.
 
 import os
 import re

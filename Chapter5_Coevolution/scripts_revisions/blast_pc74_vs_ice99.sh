@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# Is the PRO_com_74 representative contained within the ICE_community_99 representative?
-# Follow-up to VIRIDIC, which scored these two at 50.1% intergenomic similarity.
-# Chapter 5. Written 2026-07-30.
+# BLASTn of the prophage community 74 representative against ICE community 99 (Fig 5.7).
+
 set -euo pipefail
 DIR="$(cd "$(dirname "$0")/.." && pwd)/Top15MedoidProphages"
 ICE="$DIR/1307.2545_PKOW01000001_provirus-114-105135.fna"        # ICE_community_99 medoid, 105,022 bp

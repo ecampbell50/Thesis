@@ -1,28 +1,9 @@
 #!/usr/bin/env Rscript
-# ---------------------------------------------------------------------------
-# make_itol_community_datasets.R
-#
-# Builds two iToL datasets for the bacterial phylogeny that use the SAME
-# top-15-community selection and the SAME colours as the bipartite infection
-# network figure (plot_bipartite_network_ANNOTATED.R):
-#
-#   1. Dataset_Colourstrip_BACcom_top15.txt  (DATASET_COLORSTRIP)
-#        A coloured strip on each bacterial tip, coloured by its BAC community
-#        (only the 15 largest BAC communities; others left blank).
-#
-#   2. Dataset_Symbol_PROcom_top15.txt       (DATASET_SYMBOL)
-#        A filled triangle placed at each host tip for every top-15 PRO
-#        community that host carries (echoing the prophage=triangle glyph in
-#        the bipartite figure). A host with prophages from several top-15
-#        communities gets several triangles.
-#
-# The top-15 selection and colour->community mapping are computed with the
-# IDENTICAL code path as the bipartite script, so the figures stay consistent.
-# ---------------------------------------------------------------------------
+# iTOL colour strip (bacterial communities) and symbols (prophage communities) for Fig 5.9.
 
 suppressMessages(library(data.table))
 
-# ---- paths (mirror plot_bipartite_network_ANNOTATED.R) --------------------
+# ---- paths ----
 in_dir    <- "Results"
 node_file <- file.path(in_dir, "data/GenomeType_nodetable.csv")
 bac_map   <- file.path(in_dir, "data/genome_community_mapping_49_BAC.csv")
@@ -32,7 +13,7 @@ out_dir   <- "iToL"
 
 top_k_each <- 15
 
-# ---- colour palettes (copied verbatim from the bipartite script) ----------
+# ---- colours (same as plot_bipartite_network.R) ----
 bac_pal <- c("#DBFFFF","#E9DCFF","#FFD2FB","#BEFFDA","#F1FFDB","#EFFFC5","#FFF4D1",
              "#D2ECFF","#FFDBDB","#FCFDAF","#FFE2D1","#FFBBDA","#E8CFF8","#90F1EF","#FFEF9F")
 pro_pal <- c("#FF0A54","#D7FF00","#007BFF","#FFD500","#00BFFF","#FF008A","#A600FF",

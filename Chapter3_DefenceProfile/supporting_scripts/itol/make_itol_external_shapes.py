@@ -1,22 +1,6 @@
 #!/usr/bin/env python3
-"""
-itol_shapes_functions.py
-Functions to create iToL external shapes datasets from dataframes
-Jupyter-friendly version (no argument parsing)
+# iTOL presence/absence shapes for selected defence subtypes (Fig 3.6).
 
-Usage in Jupyter:
-    from itol_shapes_functions import create_shapes_dataset_presence_absence
-    
-    subtypes = ['RM_III', 'CAS_Class2-II-A', 'Aditi', 'PDC-S11', 
-                'PDC-M22', 'PDC-S30', 'RM_II', 'tmn', 'Ogmios', 'PDC-S04']
-    
-    create_shapes_dataset_presence_absence(
-        df=subtype_counts,
-        subtypes=subtypes,
-        output_file='defense_systems.txt',
-        dataset_label='Defense Systems'
-    )
-"""
 
 import pandas as pd
 import numpy as np

@@ -1,30 +1,7 @@
 #!/usr/bin/env Rscript
-# ============================================================================
-# analyse_modularity.R  —  MODULARITY (Beckett's Q) of the bacterial-community
-# x prophage-community infection network, computed straight from Netapss output.
-#
-# Q (Beckett 2016, DIRTLPAwb+) measures whether the network partitions into
-# compartments of communities that interact more among themselves than expected.
-# The optimiser is a HEURISTIC, so each computation takes the BEST OF 10 random
-# restarts. CRUCIALLY the same best-of-10 is applied to the observed network AND
-# to every null, so neither side is favoured (avoids inflating significance).
-#
-# Matrix construction is shared with analyse_nestedness.R via coevolution_common.R
-# (identical logic). Three host-count thresholds are run as a sensitivity test:
-# >=5 distinct hosts is the primary network; >=3 and >=10 bracket it.
-#
-# Significance: observed Q vs an r2dtable null (random matrices preserving the
-# row and column totals), as a z-score and empirical p-value.
-#
-# SLOW: Beckett on the >=3 matrix is ~260 s/run; with best-of-10 x 99 nulls this
-# is an overnight job. Results are written INCREMENTALLY (one threshold at a
-# time) so partial output lands early.
-#
-# Out (Results/coevolution/):
-#   network_modularity_results.csv      one row per threshold (appended)
-#   modules_min<thr>.csv                per-node module membership
-#   fig_modules_min<thr>.png            module-web visualisation
-# ============================================================================
+# Modularity (Beckett's Q) of the community infection network vs r2dtable nulls (Fig 5.15).
+# Slow, runs overnight.
+
 suppressPackageStartupMessages({
   library(bipartite); library(data.table); library(parallel)
 })

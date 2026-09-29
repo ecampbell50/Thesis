@@ -1,27 +1,5 @@
-# ══════════════════════════════════════════════════════════════════════════════
-# temporal_directional_enrichment_mainKEGG.R
-#
-# MAIN-TEXT version of temporal_directional_enrichment.R
-# ─────────────────────────────────────────────────────
-# Same temporal + directional (vs-uninfected-control) view, but pared down to the
-# THREE KEGG pathways discussed in the main text:
-#     • Ribosome                        (the most strongly enriched pathway)
-#     • Galactose metabolism
-#     • Phosphotransferase system (PTS)
-#
-# Because there are now only three pathways, each gets its OWN panel with a real,
-# labelled percentage y-axis (0–100%): induced (up vs control) is drawn above the
-# baseline, repressed (down) below.  A colour legend documents what the shades
-# mean.  COG is dropped entirely here; the full multi-term/COG figure lives in
-# temporal_directional_enrichment.R (kept as the supplementary figure).
-#
-#   y (per panel) = % of the pathway's TESTED genes that are DE in that direction
-#                   (▲ above 0 = induced, ▼ below 0 = repressed); 0–100% scale
-#   x            = time post-infection (2,10,20,30,50 min)
-#   facets       = pathway (rows) ▸ strain (C67/D32/D68) ▸ phage (Bonnie/Clyde)
-# ══════════════════════════════════════════════════════════════════════════════
+# Ribosome, galactose metabolism and PTS: % of pathway genes up/down vs control over time (Fig 4.4).
 
-# ── 0. Packages ───────────────────────────────────────────────────────────────
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 if (!requireNamespace("clusterProfiler", quietly = TRUE)) BiocManager::install("clusterProfiler", update = FALSE)
 for (pkg in c("ggh4x", "patchwork")) if (!requireNamespace(pkg, quietly = TRUE)) install.packages(pkg)

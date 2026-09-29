@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
-"""
-Gene map + blastn alignment of the prophage community 74 representative against
-the largest ICE-like element in the dataset (genome 1307.1539, 212,056 bp).
-Companion to plot_ice99_genome_map.py. Written 2026-07-30.
-"""
+# Gene map and BLASTn alignment of prophage community 74 vs ICE 139 (Fig S5.1).
+
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt

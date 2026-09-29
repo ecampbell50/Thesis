@@ -1,22 +1,7 @@
 #!/usr/bin/env bash
-# ---------------------------------------------------------------------------
-# Collect geNomad gene-level annotation for the genomes needed to answer
-# supervisor comments 129, 143 and 191 on the coevolution chapter.
-#
-# RUN THIS ON THE HPC, from inside the 04_genomad directory
-# (the one containing <genome>_genomad/ subdirectories).
-#
-#   1. copy hpc_genome_ids.txt into that directory
-#   2. bash fetch_genomad_genes.sh
-#   3. scp the resulting genomad_genes_for_ch5.tar.gz back to your laptop
-#
-# Collects, for each of the 78 genomes listed:
-#   <id>_find_proviruses/<id>_provirus_genes.tsv     per-gene annotation of proviruses
-#   <id>_find_proviruses/<id>_provirus_summary.tsv   provirus coordinates + scores
-#   <id>_summary/<id>_virus_genes.tsv                per-gene annotation, summary set
-#   <id>_summary/<id>_virus_summary.tsv              virus calls + taxonomy
-# and, for the two medoids used in the alignment figure, the protein FASTA.
-# ---------------------------------------------------------------------------
+# Collects geNomad gene annotations for the genomes in hpc_genome_ids.txt. Run on Kelvin in 04_genomad/.
+# Used for Fig 5.7, S5.1.
+
 set -uo pipefail
 
 IDS="${1:-hpc_genome_ids.txt}"

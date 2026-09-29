@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
-"""
-Annotated genome map of ICE_community_99 and the prophage community 74 element
-embedded within it. Addresses comments 129, 143 and 191.
+# Genome map of ICE community 99 with the prophage community 74 region (Fig 5.7).
 
-Inputs: ../genomad_genes_for_ch5/{1307.2545,1307.3942}_provirus_genes.tsv
-        pc74_vs_ice99_hits.tsv   (from blast_pc74_vs_ice99.sh)
-Written 2026-07-30.
-"""
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt

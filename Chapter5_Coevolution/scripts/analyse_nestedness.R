@@ -1,24 +1,6 @@
 #!/usr/bin/env Rscript
-# ============================================================================
-# analyse_nestedness.R  —  NESTEDNESS (NODF) of the bacterial-community x
-# prophage-community infection network, computed straight from Netapss output.
-#
-# NODF (Nestedness based on Overlap and Decreasing Fill; Almeida-Neto et al.
-# 2008) measures whether the interactions of specialist communities are nested
-# subsets of those of generalist communities. It is DETERMINISTIC and fast, so
-# we can afford many nulls (999) and need no restarts.
-#
-# Matrix construction is shared with analyse_modularity.R via coevolution_common.R
-# (identical logic). Three host-count thresholds are run as a sensitivity test:
-# >=5 distinct hosts is the primary network; >=3 and >=10 bracket it.
-#
-# Significance: observed NODF vs an r2dtable null (random matrices preserving
-# the row and column totals), as a z-score and empirical p-value.
-#
-# Out (Results/coevolution/):
-#   network_nestedness_results.csv      one row per threshold
-#   fig_nested_min<thr>.png             packed matrix visualisation per threshold
-# ============================================================================
+# Nestedness (NODF) of the community infection network vs r2dtable nulls (Fig 5.15).
+
 suppressPackageStartupMessages({
   library(bipartite); library(data.table); library(parallel)
 })

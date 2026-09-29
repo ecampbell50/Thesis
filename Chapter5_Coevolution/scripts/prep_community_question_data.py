@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-# ============================================================================
-# prep_community_question_data.py
-#
-# Builds one tidy CSV per question for the community-level analyses (Q1-Q4).
-# Q5 (phylogenetic homogeneity) is a separate R script (needs ape).
-# Outputs -> Results/community_questions/
-# ============================================================================
+# Per-community summary tables for BipartiteNetwork_Analysis.ipynb.
+
 import os, re
 import numpy as np, pandas as pd
 from scipy.stats import binomtest

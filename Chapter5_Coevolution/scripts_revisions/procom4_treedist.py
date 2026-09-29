@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
-"""
-Patristic distance summaries used in Chapter 5:
-  - clonality of bacterial community 2 (median / max within-clade distance)
-  - species-wide median and tree diameter for scale
-  - carriage of prophage community 4 by bacterial community
+# Patristic distances for bacterial community 2 and prophage community 4 carriage.
+# Needs the .dist output of treedist (Creevey, doi:10.5281/zenodo.1244019).
 
-Requires treedist_all (Creevey, doi:10.5281/zenodo.1244019), see ../treedist/.
-Run first:  ./treedist/treedist_all <tree> matrix     -> <tree>.dist
-Written 2026-07-30.
-"""
 import csv, sys, statistics, itertools
 from collections import Counter
 

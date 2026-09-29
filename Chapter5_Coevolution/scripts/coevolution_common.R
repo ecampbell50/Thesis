@@ -1,26 +1,9 @@
-# ============================================================================
-# coevolution_common.R  —  shared matrix builder for the coevolution analyses.
-#
-# SINGLE SOURCE OF TRUTH for constructing the bacterial-community x prophage-
-# community incidence matrix directly from raw Netapss output. Both
-# analyse_nestedness.R and analyse_modularity.R source() this file, so they are
-# GUARANTEED to operate on an identically-built matrix.
-#
-# Inputs (raw Netapss output in Results/):
-#   Bipartite_BAC_PRO_genome_edgetable.csv   Source,Target,Value
-#   genome_community_mapping_49_BAC.csv      Genome_ID,Community   (bacteria)
-#   genome_community_mapping_44_PRO.csv      Genome_ID,Community   (prophages)
-#
-# A genome's TYPE (BAC vs PRO) is inferred from which mapping file it appears in.
-# "host edges" = edgetable rows linking one BAC genome to one PRO genome (a
-# prophage residing in a host). We map each endpoint to its community, then a
-# bacterial community "carries" a prophage community if ANY of its member host
-# genomes is linked to ANY member of that prophage community (binary incidence).
-# ============================================================================
+# Builds the bacterial x prophage community matrix. Used by analyse_modularity.R and analyse_nestedness.R.
+
 suppressPackageStartupMessages({ library(data.table) })
 
 # Build the BAC-community x PRO-community binary incidence matrix.
-#   res_dir   = folder holding the three Netapss CSVs
+#   res_dir   = folder holding the three Netpass CSVs
 #   min_hosts = keep only prophage communities linked to >= this many DISTINCT
 #               host (bacterial) genomes; smaller ones are unclustered singletons
 # Returns a numeric 0/1 matrix (rows = BAC communities, cols = PRO communities).

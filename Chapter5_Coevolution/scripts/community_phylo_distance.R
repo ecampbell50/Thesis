@@ -1,10 +1,6 @@
 #!/usr/bin/env Rscript
-# ============================================================================
-# community_phylo_distance.R  —  Q5: phylogenetic homogeneity per BAC community.
-# Mean pairwise patristic (cophenetic) distance between member genomes on the
-# FastTree tree. Low = tight/clonal community; high = phylogenetically diverse.
-# Out: Results/community_questions/q5_community_phylo_distance.csv
-# ============================================================================
+# Mean patristic distance between genomes in each bacterial community.
+
 suppressPackageStartupMessages({ library(ape); library(data.table) })
 
 TREE <- "data/SsuisPhylo_FastTree_11Sep24.treefile"
@@ -16,7 +12,7 @@ tr  <- read.tree(TREE)
 norm <- function(x) sub("\\.(fna|fasta|ref)$", "", x)
 tip_norm <- norm(tr$tip.label)
 
-bac <- fread(BAC, colClasses = list(character = 1))   # colClasses avoids the float-ID trap
+bac <- fread(BAC, colClasses = list(character = 1))   # IDs as text
 setnames(bac, c("g", "c")); bac[, g := norm(g)]; bac[, bac_comm := paste0("BAC_com_", c)]
 bac <- bac[g %in% tip_norm]
 cat(sprintf("tips: %d | BAC genomes on tree: %d / %d\n",

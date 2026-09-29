@@ -1,4 +1,5 @@
-# prophage_coverage_plot.R
+# Read coverage over the resident prophage in each strain (Fig S4.4-S4.6).
+
 library(tidyverse)
 
 # Self-contained: resolve relative to this script's location in paper_package

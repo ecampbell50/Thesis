@@ -1,18 +1,6 @@
 #!/usr/bin/env python3
-"""
-Select a medoid representative for each of the 15 largest prophage communities.
+# Medoid of each of the 15 largest prophage communities, for VIRIDIC (Fig 5.6).
 
-The medoid is the community member with the highest MEAN within-community
-Sourmash Jaccard similarity to all other members, i.e. the most typical
-sequence of its community. Used as VIRIDIC input (Chapter 5, Section 5.2.x).
-
-Inputs  (relative to ../Results/):
-  confounders/prophage_length_table.csv                  prophage_id -> pro_comm
-  Ssuis_3216proviruses_k15s500_44_intra_community_PRO.csv  Source,Target,Value (Jaccard)
-Output:
-  ../VIRIDIC_top15_representatives.txt
-Written 2026-07-30.
-"""
 import csv, os
 from collections import defaultdict
 

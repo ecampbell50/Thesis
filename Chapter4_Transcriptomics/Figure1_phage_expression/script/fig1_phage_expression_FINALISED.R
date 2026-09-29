@@ -1,50 +1,5 @@
-# fig1_phage_expression.R  ── Figure 1: Phage gene expression overview
-#
-# Panel A  — CSR ternary: Early / Middle / Late gene class proportions
-#             for each strain × phage combination
-# Panels B–G — Joy / ridgeline plots of phage gene expression across the
-#               infection timecourse (one panel per strain × phage, genomic order)
-#
-# Layout (2 rows × 3 cols):
-#   Row 1: C67 Bonnie  |  D32 Bonnie  | D68 Clyde
-#   Row 2: C67 Clyde   |  D32 Clyde   | D68 Clyde
-#
-# ── RUN FROM ──────────────────────────────────────────────────────────────────
-#   setwd("...2_Analysis/")   ← project root
-#   source("scripts/R/fig1_phage_expression.R")
-#
-# ── DATA IN ───────────────────────────────────────────────────────────────────
-# Panel A (ternary):
-#   · Gene class counts HARDCODED below.
-#     Source: PhageExpressionAtlas ClassThreshold column in
-#             results/PEA/{STRAIN}_{PHAGE}_fractional_expression.tsv
-#     Totals: Bonnie = 72 genes, Clyde = 65 genes
-#
-# Panels B–G (ridgelines):
-#   · data/raw_counts/{STRAIN}_{PHAGE}_full_raw_counts.tsv
-#     18 count columns: {0,2,10,20,30,50}_{STRAIN}_{PHAGE}_R{1,2,3}
-#     + Entity and Symbol columns (dropped before analysis)
-#   · results/PEA/{STRAIN}_{PHAGE}_fractional_expression.tsv
-#     Column used: ClassThreshold  (Early / Middle / Late / None)
-#
-# ── FILTERING ─────────────────────────────────────────────────────────────────
-#   · T=0 columns dropped  (pre-infection; phage not yet injected)
-#   · Only phage gene rows kept  (row name prefix: PENJXGPI_CDS_ or ZUDWSPYW_CDS_)
-#   · Genes with rowSums(counts) < 10 excluded before VST
-#
-# ── STATS ─────────────────────────────────────────────────────────────────────
-#   · VST: DESeq2::varianceStabilizingTransformation(blind = TRUE)
-#           applied independently per strain × phage dataset
-#   · Replicates averaged: mean(R1, R2, R3) per timepoint after VST
-#   · Per-gene scaling: (x - min) / (max - min + 1e-9)  → 0–1 waveform height
-#   · Smooth curves: cubic spline with 300 output points
-#   · Ternary: pct = count / total × 100  (no statistical test)
-#
-# ── OUTPUT ────────────────────────────────────────────────────────────────────
-#   results/figures/fig1_phage_expression.pdf   (10 × 16 in)
-# ══════════════════════════════════════════════════════════════════════════════
+# Phage gene expression over the infection time course (Fig 4.2).
 
-# ── 0. Packages ───────────────────────────────────────────────────────────────
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 for (p in c("DESeq2"))
   if (!p %in% installed.packages()) BiocManager::install(p, update = FALSE)

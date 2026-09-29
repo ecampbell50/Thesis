@@ -1,9 +1,4 @@
-# phage_genome_map.R
-# Circular genome map for Bonnie and Clyde phages from GFF3 annotation.
-# Forward-strand genes on outer ring, reverse-strand on inner ring, as arrows.
-#
-# Run from: 2_Analysis/
-#   source("scripts/R/phage_genome_map.R")
+# Circular genome maps of Bonnie and Clyde (Fig S4.1, S4.2).
 
 library(tidyverse)
 

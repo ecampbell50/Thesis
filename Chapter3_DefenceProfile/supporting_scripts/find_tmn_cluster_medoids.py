@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-"""
-find_tmn_cluster_medoids.py
-Find the most representative (medoid) sequence from each Tmn cluster
+# Medoid sequence of the Tmn-alpha and Tmn-beta clusters.
 
-Usage:
-    python3 find_tmn_cluster_medoids.py
-"""
 
 from Bio import SeqIO, pairwise2
 from Bio.Seq import Seq

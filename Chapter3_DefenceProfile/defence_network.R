@@ -1,21 +1,6 @@
 #!/usr/bin/env Rscript
-# ==============================================================================
-# Chapter 3 - Defence-system protein-similarity network  (Figure 1 + Figure S2)
-# ==============================================================================
-# Merged from v15_defence_network.R + v15_community_panels.R.
-# The plotting code of both is preserved VERBATIM; only the data loading and
-# output paths were lifted out so the two share one pass over the inputs.
-#
-# Run from this directory:   Rscript defence_network.R
-#
-# Outputs -> figures/network/<system>/
-#     <system>_network.pdf/.png    full network for that system
-#     <system>_nodes.csv           node metadata
-#     community_panels/*.png       one panel per Louvain community
-#
-# Figure S2 is the "all" run (no filter). Figure 1 is a composite assembled in a
-# vector editor from the per-system networks and community panels below.
-# ==============================================================================
+# Defence protein similarity network (Fig 3.1, Fig S3.1). Run from Chapter3_DefenceProfile/.
+# Fig 3.1 panels combined by hand.
 
 .pkgs <- c("igraph", "ggraph", "tidyverse", "ggrepel")
 .missing <- .pkgs[!.pkgs %in% rownames(installed.packages())]
@@ -69,7 +54,7 @@ rep_annot <- members %>%
   )
 
 # ==============================================================================
-# FUNCTION 1 - full network per system   (body verbatim from v15_defence_network.R)
+# FUNCTION 1 - full network per system
 # ==============================================================================
 plot_network <- function(FILTER_TYPES, FILTER_SUBTYPES = NULL) {
   SIZE_RANGE      <- c(1, 30)
@@ -409,7 +394,7 @@ plot_network <- function(FILTER_TYPES, FILTER_SUBTYPES = NULL) {
 }
 
 # ==============================================================================
-# FUNCTION 2 - per-community panels   (body verbatim from v15_community_panels.R)
+# FUNCTION 2 - per-community panels
 # ==============================================================================
 plot_community_panels <- function(FILTER_TYPES, FILTER_SUBTYPES = NULL) {
   SIZE_RANGE      <- c(3, 60)

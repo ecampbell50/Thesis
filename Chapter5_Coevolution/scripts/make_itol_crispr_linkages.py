@@ -1,29 +1,6 @@
 #!/usr/bin/env python3
-# =============================================================================
-# make_itol_crispr_linkages.py
-#
-# Regenerates the iToL DATASET_CONNECTION files that draw CRISPR spacer ->
-# protospacer arrows on the core-genome phylogeny (Chapter 5, Figs BC3 / BC5 /
-# pruned BC2-5).
-#
-# The original linkage files were produced ad hoc and no generating script
-# survived. This reconstructs them exactly from the committed inputs:
-#
-#   data/Protospacer_hits.csv                  Source,Target,Value  (82,537 hits)
-#   data/genome_community_mapping_49_BAC.csv   Genome_ID,Community
-#
-# Derivation (verified against the original iToL/per_community files):
-#   source genome = spacer ID before  '|'      e.g. 1007064.3|...spacer_9
-#   target genome = provirus ID before '_'     e.g. 1214171.3_ALLK..._provirus-...
-#   width         = 1.0 + 0.45 * (number of hits between that genome pair)
-#   colour        = grey  #cccccc  spacer and prophage both inside the community
-#                   red   #e31a1c  spacer inside  -> prophage outside
-#                   blue  #1f78b4  spacer outside -> prophage inside
-#
-# Usage:
-#   python3 scripts/make_itol_crispr_linkages.py 3 5 2
-#   python3 scripts/make_itol_crispr_linkages.py --all
-# =============================================================================
+# iTOL connection files for the spacer to prophage links (Fig 5.11-5.13).
+# Usage: python3 scripts/make_itol_crispr_linkages.py 2 3 5
 
 import argparse
 import csv

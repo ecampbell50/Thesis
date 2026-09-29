@@ -1,26 +1,5 @@
-# fig2_host_trajectories.R  ── Figure 2: Host gene DE across the timecourse
-#
-# Strip plot: one dot per gene per timepoint, y = log2FC, x = timepoint.
-# Only genes with padj < PADJ_THRESHOLD are shown.
-# Colour: grey (|LFC| < 1), up/down colour (|LFC| >= 1), defence/prophage always coloured.
-# Layout: 3 rows (strains) × 2 columns (Bonnie / Clyde).
-#
-# ── RUN FROM ──────────────────────────────────────────────────────────────────
-#   setwd("...2_Analysis/")
-#   source("scripts/R/fig2_host_trajectories.R")
-#
-# ── DATA IN ───────────────────────────────────────────────────────────────────
-#   DESeq2_{STRAIN}_{PHAGE}_vs_CTLR_T{2,10,20,30,50}min.csv  (project root)
-#   Columns: (rowname = gene_id), baseMean, log2FoldChange, lfcSE, pvalue, padj
-#
-# ── FILTERING ─────────────────────────────────────────────────────────────────
-#   Only genes with padj < PADJ_THRESHOLD are plotted. Nothing else removed.
-#
-# ── OUTPUT ────────────────────────────────────────────────────────────────────
-#   results/figures/fig2_host_trajectories.pdf   (12 × 10 in)
-# ══════════════════════════════════════════════════════════════════════════════
+# Host gene log2FC vs control across the time course (Fig 4.3).
 
-# ── 0. Packages ───────────────────────────────────────────────────────────────
 if (!"tidyverse" %in% installed.packages()) install.packages("tidyverse")
 library(tidyverse)
 
@@ -145,7 +124,6 @@ plot_df %>%
 
 
 # Per-timepoint count label: DE genes only (|LFC| >= LFC_THRESHOLD AND padj < PADJ_THRESHOLD)
-# Change category %in% c("DE","defence","prophage") to just "DE" if you want to exclude annotations
 tp_counts <- plot_df %>%
   group_by(strain, phage_label, timepoint) %>%
   summarise(n = n(), .groups = "drop") %>%

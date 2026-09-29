@@ -1,23 +1,5 @@
 #!/usr/bin/env Rscript
-# ============================================================================
-# Bipartite S. suis bacteria-prophage similarity network figures
-#
-# Inputs (Netapss / sourmash output):
-#   Results/Bipartite_BAC_PRO_genome_edgetable.csv  Source,Target,Value
-#       - BAC-BAC & PRO-PRO edges  = sourmash Jaccard similarity
-#         (BAC network kept edges >= 0.49, PRO network kept >= 0.44 -> the 49/44)
-#       - BAC-PRO edges            = prophage->host links, all Value == 1 (marker, not similarity)
-#   Results/GenomeType_nodetable.csv               Genome,Type   (BAC / PRO)
-#   Results/genome_community_mapping_49_BAC.csv     Genome_ID,Community
-#   Results/genome_community_mapping_44_PRO.csv     Genome_ID,Community
-#
-# Community labels are namespaced "BAC_com_X" / "PRO_com_X" (not shared across sets).
-#
-# Produces:
-#   1. bipartite_full_network.png   - every genome a node, BAC region | PRO region,
-#                                      host links bridging the gap
-#   2. bipartite_community_summary.png - one node per community, host coupling emphasised
-# ============================================================================
+# Bacteria-prophage network (Fig 5.8).
 
 suppressPackageStartupMessages({
   library(data.table)

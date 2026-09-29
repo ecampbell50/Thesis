@@ -1,20 +1,6 @@
 #!/usr/bin/env python3
-# ======================================================================
-# Thesis Chapter 2, Figure 2.1 and Results
-# All Chapter 2 statistics (results_stats.txt, e.g. 32,509 annotations, 50.6% multi-source), system counts table, landscape and concordance panels.
-# Original location: github.com/ecampbell50/Chp4_Ptolemaea scripts/analyse_results.py
-# ======================================================================
-"""
-analyse_results.py — panel-wide analysis + figures for the Ptolemaea demonstration.
+# Chapter 2 stats (results_stats.txt) and Figure 2.1B, C, from the per-species outputs in data/.
 
-Reads the per-species *_annotations.csv and *_summary.tsv files in the repo root
-and produces:
-  * results_stats.txt   — every number cited in the Demonstration section
-  * figures/fig2_landscape.{pdf,png}
-  * figures/fig3_concordance.{pdf,png}
-
-Usage:  python3 scripts/analyse_results.py
-"""
 import os
 import textwrap
 from collections import OrderedDict

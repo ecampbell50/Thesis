@@ -1,29 +1,7 @@
 #!/usr/bin/env python3
-"""
-analyse_crispr_targeting.py  —  Move 3 (local downstream)
+# CRISPR targeting from the spacer vs provirus BLAST hits (hpc/07).
+# Writes tables/crispr_*.csv.
 
-Run AFTER pulling Results/coevolution/spacer_vs_provirus.tsv from the HPC
-(produced by crispr_spacer_pipeline.sh).
-
-Turns spacer->provirus BLAST hits into a coevolutionary immunity record:
-  * which prophage communities are most TARGETED by host CRISPR immunity
-  * self / within-lineage / cross-lineage targeting
-  * the key test: does a lineage carrying a spacer against PRO_com_X tend to
-    LACK PRO_com_X (immunity -> exclusion), vs hosts that carry the phage
-    (failed immunity / escape)?
-
-Inputs
-------
-  Results/coevolution/spacer_vs_provirus.tsv            (qseqid sseqid pident length mismatch
-        gapopen qlen qstart qend sstart send evalue bitscore ; sseqid == prophage_id)
-  Results/prophage_defence/prophage_host_community_long.csv
-  Results/genome_community_mapping_49_BAC.csv
-Outputs (Results/coevolution/)
-------------------------------
-  crispr_targeting_events.csv      one row per (spacer host -> targeted provirus)
-  crispr_procomm_pressure.csv      per prophage-community: #spacers, #targeting lineages, carriage
-  crispr_immunity_vs_carriage.csv  2x2: lineage targets PRO_com? x lineage carries PRO_com?
-"""
 import os, sys
 import pandas as pd
 
